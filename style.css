@@ -1,0 +1,79 @@
+:root {
+    --bs-primary: #3498db;
+    --bs-secondary: #2ecc71;
+    --bs-success: #28a745;
+    --bs-danger: #dc3545;
+    --bs-warning: #ffc107;
+    --bs-info: #17a2b8;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.dark-mode .card {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.dark-mode .card-header {
+    background-color: #2c3e50;
+    border-bottom-color: #4a6278;
+}
+
+.dark-mode .list-group-item {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-color: #4a6278;
+}
+
+.dark-mode .form-control {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-color: #4a6278;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#timer {
+    font-size: 3rem;
+}
+
+.btn-icon {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.card {
+    height: 100%;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+    transition: transform 0.1s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
